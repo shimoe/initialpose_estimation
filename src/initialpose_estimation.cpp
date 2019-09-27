@@ -3,7 +3,7 @@
 
 void getInitialPose(const geometry_msgs::PoseWithCovarianceStamped& msg)
 {
-  ROS_INFO("pos.x = %d",msg.pose.pose.position.x);
+  ROS_INFO("pos.x = %f",msg.pose.pose.position.x);
 }
 
 
